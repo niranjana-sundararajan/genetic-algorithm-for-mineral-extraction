@@ -1,0 +1,73 @@
+\hypertarget{classsolution}{}\doxysection{solution Class Reference}
+\label{classsolution}\index{solution@{solution}}
+
+
+This is a class that represent a chromosome. The chromosome has curit\+\_\+vector representing the gene sequence.  
+
+
+
+
+{\ttfamily \#include $<$Genetic\+\_\+\+Algorithm.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classsolution_a56d5d94425cdd6f5f8f5e0104606b221}\label{classsolution_a56d5d94425cdd6f5f8f5e0104606b221}} 
+void {\bfseries initial\+\_\+allocation} (\mbox{\hyperlink{classsolution}{solution}} $\ast$pop, int num\+\_\+units)
+\item 
+\mbox{\Hypertarget{classsolution_a7dd0150cd0a0521721229e4b530997c6}\label{classsolution_a7dd0150cd0a0521721229e4b530997c6}} 
+void {\bfseries free\+\_\+memory} (\mbox{\hyperlink{classsolution}{solution}} $\ast$pop)
+\item 
+\mbox{\Hypertarget{classsolution_a6f3dd3b44f43083f038accebcf6254fd}\label{classsolution_a6f3dd3b44f43083f038accebcf6254fd}} 
+double {\bfseries random\+\_\+01} ()
+\item 
+\mbox{\Hypertarget{classsolution_a94fbf80db554944d0d5f6ff588ee1bb2}\label{classsolution_a94fbf80db554944d0d5f6ff588ee1bb2}} 
+int {\bfseries select} (\mbox{\hyperlink{classsolution}{solution}} $\ast$pop)
+\item 
+\mbox{\Hypertarget{classsolution_a575ea81b835687e4777aef743a7cfb51}\label{classsolution_a575ea81b835687e4777aef743a7cfb51}} 
+void {\bfseries cross\+\_\+over} (\mbox{\hyperlink{classsolution}{solution}} $\ast$curt\+\_\+pop, \mbox{\hyperlink{classsolution}{solution}} \&child\+\_\+1, \mbox{\hyperlink{classsolution}{solution}} \&child\+\_\+2)
+\item 
+\mbox{\Hypertarget{classsolution_ad4b84759dd5c44a32f83e10805e85839}\label{classsolution_ad4b84759dd5c44a32f83e10805e85839}} 
+void {\bfseries mutation} (\mbox{\hyperlink{classsolution}{solution}} \&curt\+\_\+sol)
+\item 
+\mbox{\Hypertarget{classsolution_a54886df5fe61b72a286cfdceafc9410a}\label{classsolution_a54886df5fe61b72a286cfdceafc9410a}} 
+void {\bfseries Genetic\+\_\+algorithm} (int $\ast$sol, int num\+\_\+units)
+\item 
+\mbox{\Hypertarget{classsolution_aa0841ef39cfe6309cde43afff084acf5}\label{classsolution_aa0841ef39cfe6309cde43afff084acf5}} 
+void {\bfseries copy\+\_\+solution} (\mbox{\hyperlink{classsolution}{solution}} \&sol1, \mbox{\hyperlink{classsolution}{solution}} \&sol2)
+\item 
+\mbox{\Hypertarget{classsolution_a6fa32486a624fc22375fb829148466f8}\label{classsolution_a6fa32486a624fc22375fb829148466f8}} 
+void {\bfseries sort\+\_\+pop} (\mbox{\hyperlink{classsolution}{solution}} $\ast$pop)
+\item 
+\mbox{\Hypertarget{classsolution_a3e20eb0c5296b04e4eaec1fe25ad2e8e}\label{classsolution_a3e20eb0c5296b04e4eaec1fe25ad2e8e}} 
+void {\bfseries write\+\_\+file} (int $\ast$res\+\_\+vec, double res\+\_\+val)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classsolution_a9567b9a0f4f24668b647cf29c79a327f}\label{classsolution_a9567b9a0f4f24668b647cf29c79a327f}} 
+int $\ast$ {\bfseries curit\+\_\+vector}
+\begin{DoxyCompactList}\small\item\em It is a address of array, which contains the gene sequence. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{classsolution_afcd38ff3d5ee6363ee5ba2a74a4e212d}{fitness\+\_\+value}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This is a class that represent a chromosome. The chromosome has curit\+\_\+vector representing the gene sequence. 
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classsolution_afcd38ff3d5ee6363ee5ba2a74a4e212d}\label{classsolution_afcd38ff3d5ee6363ee5ba2a74a4e212d}} 
+\index{solution@{solution}!fitness\_value@{fitness\_value}}
+\index{fitness\_value@{fitness\_value}!solution@{solution}}
+\doxysubsubsection{\texorpdfstring{fitness\_value}{fitness\_value}}
+{\footnotesize\ttfamily double solution\+::fitness\+\_\+value}
+
+The fitness value of the vector \begin{DoxySeeAlso}{See also}
+Evaluate\+\_\+\+Circuit() 
+\end{DoxySeeAlso}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Genetic\+\_\+\+Algorithm.\+h\item 
+Genetic\+\_\+\+Algorithm.\+cpp\end{DoxyCompactItemize}

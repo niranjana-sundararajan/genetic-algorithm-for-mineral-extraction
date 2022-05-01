@@ -1,0 +1,42 @@
+\hypertarget{_c_unit_8h_source}{}\doxysection{CUnit.\+h}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#pragma once}}
+\DoxyCodeLine{2 }
+\DoxyCodeLine{3 \textcolor{keyword}{class }\mbox{\hyperlink{class_c_unit}{CUnit}} \{}
+\DoxyCodeLine{4 \textcolor{keyword}{public}:}
+\DoxyCodeLine{5     \textcolor{keywordtype}{int} conc\_num = -\/1;   \textcolor{comment}{// index of the unit to which this unit’s concentrate stream is connected}}
+\DoxyCodeLine{6     \textcolor{keywordtype}{int} tails\_num = -\/1;  \textcolor{comment}{// index of the unit to which this unit’s concentrate stream is connected}}
+\DoxyCodeLine{7     \textcolor{keywordtype}{bool} mark = \textcolor{keyword}{false};  \textcolor{comment}{// A Boolean that is changed to true if the unit has been seen}}
+\DoxyCodeLine{8 }
+\DoxyCodeLine{9     \textcolor{keywordtype}{double} gormanium\_in = 10;    \textcolor{comment}{// the feed of gormanium input into the circuit}}
+\DoxyCodeLine{10     \textcolor{keywordtype}{double} waste\_in = 100;    \textcolor{comment}{// the feed of waste input into the circuit}}
+\DoxyCodeLine{11     \textcolor{keywordtype}{double} feed\_new[2] = \{0\}; \textcolor{comment}{// the current feed of the unit, 0 for gormanium and 1 for waste}}
+\DoxyCodeLine{12     \textcolor{keywordtype}{double} feed\_old[2] = \{0\}; \textcolor{comment}{// the old/previous feed of the unit, 0 for gormanium and 1 for waste}}
+\DoxyCodeLine{13 }
+\DoxyCodeLine{14     \textcolor{keywordtype}{double} conc\_out[2] = \{0\}; \textcolor{comment}{// the concentrate output from the unit(both the gormanium and the waste)}}
+\DoxyCodeLine{15     \textcolor{keywordtype}{double} tail\_out[2] = \{0\}; \textcolor{comment}{// the tail output from this unit(both the gormanium and the waste)}}
+\DoxyCodeLine{16 }
+\DoxyCodeLine{17 }
+\DoxyCodeLine{19     \mbox{\hyperlink{class_c_unit_af94af33f7e89ad04a27e77479f78eb4a}{CUnit}}();}
+\DoxyCodeLine{20 }
+\DoxyCodeLine{22     \mbox{\hyperlink{class_c_unit_a2b326b3671dc94ff4f85da768a937b8d}{\string~CUnit}}();}
+\DoxyCodeLine{23 }
+\DoxyCodeLine{25     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_c_unit_ad08295e492443526157b2b1b76775609}{print\_para}}();}
+\DoxyCodeLine{26 }
+\DoxyCodeLine{28     \textcolor{keywordtype}{double} \mbox{\hyperlink{class_c_unit_ae309ab886ca7df175bb347d4235ca1ca}{calculate\_residence}}(\textcolor{keywordtype}{double} *feed\_new);}
+\DoxyCodeLine{29 }
+\DoxyCodeLine{31     \textcolor{keywordtype}{double} \mbox{\hyperlink{class_c_unit_addc601e006058dc064e730f5f146600d}{calculate\_recovery\_g}}(\textcolor{keywordtype}{double} residence\_time);}
+\DoxyCodeLine{32 }
+\DoxyCodeLine{34     \textcolor{keywordtype}{double} \mbox{\hyperlink{class_c_unit_adfd1eee105cca34cca419395cd7bc963}{calculate\_recovery\_w}}(\textcolor{keywordtype}{double} residence\_time);}
+\DoxyCodeLine{35 }
+\DoxyCodeLine{37     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_c_unit_a8372557aed70afb1e170c408a4bbeb45}{calculate\_stream}}();}
+\DoxyCodeLine{38 }
+\DoxyCodeLine{40     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_c_unit_a326bc2e101a50c365d569d006ad5db87}{update\_feed}}();}
+\DoxyCodeLine{41 }
+\DoxyCodeLine{43     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_c_unit_a8c45d1803f1a2bc7d91cfb02991ee6d0}{zero\_feed}}();}
+\DoxyCodeLine{44 }
+\DoxyCodeLine{45 \};}
+\DoxyCodeLine{46 }
+
+\end{DoxyCode}

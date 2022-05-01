@@ -1,0 +1,150 @@
+\hypertarget{class_c_circuit}{}\doxysection{CCircuit Class Reference}
+\label{class_c_circuit}\index{CCircuit@{CCircuit}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_c_circuit_a781f033b1d813923dc8723140403f1f7}{CCircuit}} ()
+\item 
+\mbox{\Hypertarget{class_c_circuit_a9f8b172e4d8dc55c7d03dd344ad86044}\label{class_c_circuit_a9f8b172e4d8dc55c7d03dd344ad86044}} 
+{\bfseries CCircuit} (int num\+\_\+units)
+\item 
+\mbox{\Hypertarget{class_c_circuit_a3b2746dcb32f67ae963db8081d6b042d}\label{class_c_circuit_a3b2746dcb32f67ae963db8081d6b042d}} 
+{\bfseries CCircuit} (int num\+\_\+units, double g\+\_\+in, double w\+\_\+in, double pay, double penalty)
+\item 
+\mbox{\hyperlink{class_c_circuit_ab3b4f708f29772030e4b1a5fb3c3b952}{$\sim$\+CCircuit}} ()
+\item 
+void \mbox{\hyperlink{class_c_circuit_a0771d7ff31756d94578ae82ce195120e}{print\+\_\+para}} ()
+\item 
+void \mbox{\hyperlink{class_c_circuit_a63ade56ad993e3d4c256fe3a02e80dd5}{test\+\_\+cal}} ()
+\item 
+void \mbox{\hyperlink{class_c_circuit_ab0c83bfd3439b92bf9a3c23789aa02e3}{mark\+\_\+units}} (int unit\+\_\+num)
+\item 
+void \mbox{\hyperlink{class_c_circuit_ae1a34b937d94bb545fb3472844eac6ae}{mark\+\_\+false}} ()
+\item 
+void \mbox{\hyperlink{class_c_circuit_a4b3419c13fdfe84ed8241f8119f70710}{Initialize}} (int $\ast$circuit\+\_\+vector)
+\item 
+double \mbox{\hyperlink{class_c_circuit_aac5d2ea2f49e3d1e96111e39c1bff3d1}{Evaluate\+\_\+\+Circuit}} (int $\ast$circuit\+\_\+vector, double tolerance, int max\+\_\+iterations)
+\item 
+double \mbox{\hyperlink{class_c_circuit_ad685b2fd7020df3342512b5a725da058}{calculate\+\_\+difference}} (int i)
+\item 
+bool \mbox{\hyperlink{class_c_circuit_aedee952c53aada9f2e48df5bb541526a}{Check\+\_\+\+Validity}} (int $\ast$circuit\+\_\+vector)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_c_circuit_a4964e4e450434172f3faae2b3061fcaf}\label{class_c_circuit_a4964e4e450434172f3faae2b3061fcaf}} 
+int {\bfseries num\+\_\+units} = 10
+\item 
+\mbox{\Hypertarget{class_c_circuit_a19036b24e181b2653377497d57dae0a4}\label{class_c_circuit_a19036b24e181b2653377497d57dae0a4}} 
+double {\bfseries pay} = 100
+\item 
+\mbox{\Hypertarget{class_c_circuit_aa46e2b2adc39da32655e3364b882d1d3}\label{class_c_circuit_aa46e2b2adc39da32655e3364b882d1d3}} 
+double {\bfseries penalty} = 500
+\item 
+\mbox{\Hypertarget{class_c_circuit_ae187c99e4c011a83c88b62b20de9a254}\label{class_c_circuit_ae187c99e4c011a83c88b62b20de9a254}} 
+double {\bfseries gormanium\+\_\+in} = 10
+\item 
+\mbox{\Hypertarget{class_c_circuit_a50307b1ae7135132be3659c15943e6be}\label{class_c_circuit_a50307b1ae7135132be3659c15943e6be}} 
+double {\bfseries waste\+\_\+in} = 100
+\item 
+\mbox{\Hypertarget{class_c_circuit_a43bc252ad0a7fe614c90fd63b03ca928}\label{class_c_circuit_a43bc252ad0a7fe614c90fd63b03ca928}} 
+\mbox{\hyperlink{class_c_unit}{CUnit}} $\ast$ {\bfseries units} = nullptr
+\item 
+\mbox{\Hypertarget{class_c_circuit_ad6e103170c58ae4c01db2cf44180ad89}\label{class_c_circuit_ad6e103170c58ae4c01db2cf44180ad89}} 
+int {\bfseries outlet\+\_\+conc} = -\/1
+\item 
+\mbox{\Hypertarget{class_c_circuit_a9dc6f532569ba0ce40b30228d8c76245}\label{class_c_circuit_a9dc6f532569ba0ce40b30228d8c76245}} 
+int {\bfseries outlet\+\_\+tail} = -\/1
+\item 
+\mbox{\Hypertarget{class_c_circuit_a011ed91cf53b1b9e7b8c5202bddde126}\label{class_c_circuit_a011ed91cf53b1b9e7b8c5202bddde126}} 
+double {\bfseries purity}
+\item 
+\mbox{\Hypertarget{class_c_circuit_a8a05d65cd471a105c56409e2aa985e53}\label{class_c_circuit_a8a05d65cd471a105c56409e2aa985e53}} 
+double {\bfseries recovery}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_c_circuit_a781f033b1d813923dc8723140403f1f7}\label{class_c_circuit_a781f033b1d813923dc8723140403f1f7}} 
+\index{CCircuit@{CCircuit}!CCircuit@{CCircuit}}
+\index{CCircuit@{CCircuit}!CCircuit@{CCircuit}}
+\doxysubsubsection{\texorpdfstring{CCircuit()}{CCircuit()}}
+{\footnotesize\ttfamily CCircuit\+::\+CCircuit (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Constructor \mbox{\Hypertarget{class_c_circuit_ab3b4f708f29772030e4b1a5fb3c3b952}\label{class_c_circuit_ab3b4f708f29772030e4b1a5fb3c3b952}} 
+\index{CCircuit@{CCircuit}!````~CCircuit@{$\sim$CCircuit}}
+\index{````~CCircuit@{$\sim$CCircuit}!CCircuit@{CCircuit}}
+\doxysubsubsection{\texorpdfstring{$\sim$CCircuit()}{~CCircuit()}}
+{\footnotesize\ttfamily CCircuit\+::$\sim$\+CCircuit (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Destructor 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_c_circuit_ad685b2fd7020df3342512b5a725da058}\label{class_c_circuit_ad685b2fd7020df3342512b5a725da058}} 
+\index{CCircuit@{CCircuit}!calculate\_difference@{calculate\_difference}}
+\index{calculate\_difference@{calculate\_difference}!CCircuit@{CCircuit}}
+\doxysubsubsection{\texorpdfstring{calculate\_difference()}{calculate\_difference()}}
+{\footnotesize\ttfamily double CCircuit\+::calculate\+\_\+difference (\begin{DoxyParamCaption}\item[{int}]{i }\end{DoxyParamCaption})}
+
+Calculate the difference \mbox{\Hypertarget{class_c_circuit_aedee952c53aada9f2e48df5bb541526a}\label{class_c_circuit_aedee952c53aada9f2e48df5bb541526a}} 
+\index{CCircuit@{CCircuit}!Check\_Validity@{Check\_Validity}}
+\index{Check\_Validity@{Check\_Validity}!CCircuit@{CCircuit}}
+\doxysubsubsection{\texorpdfstring{Check\_Validity()}{Check\_Validity()}}
+{\footnotesize\ttfamily bool CCircuit\+::\+Check\+\_\+\+Validity (\begin{DoxyParamCaption}\item[{int $\ast$}]{circuit\+\_\+vector }\end{DoxyParamCaption})}
+
+Check the circuit\textquotesingle{}s validity \mbox{\Hypertarget{class_c_circuit_aac5d2ea2f49e3d1e96111e39c1bff3d1}\label{class_c_circuit_aac5d2ea2f49e3d1e96111e39c1bff3d1}} 
+\index{CCircuit@{CCircuit}!Evaluate\_Circuit@{Evaluate\_Circuit}}
+\index{Evaluate\_Circuit@{Evaluate\_Circuit}!CCircuit@{CCircuit}}
+\doxysubsubsection{\texorpdfstring{Evaluate\_Circuit()}{Evaluate\_Circuit()}}
+{\footnotesize\ttfamily double CCircuit\+::\+Evaluate\+\_\+\+Circuit (\begin{DoxyParamCaption}\item[{int $\ast$}]{circuit\+\_\+vector,  }\item[{double}]{tolerance,  }\item[{int}]{max\+\_\+iterations }\end{DoxyParamCaption})}
+
+Calculate the fitness value Initialize all the units in the circuit
+
+Update the old table and the new table
+
+Update the feed of the last two units to zero
+
+Add the mass of feed out of the circuit(both gormanium and waste, only unit0)
+
+Update the mass of feed(both gormanium and waste)
+
+Calculate the difference and check whether it is convergent
+
+Calculate the fitness value\mbox{\Hypertarget{class_c_circuit_a4b3419c13fdfe84ed8241f8119f70710}\label{class_c_circuit_a4b3419c13fdfe84ed8241f8119f70710}} 
+\index{CCircuit@{CCircuit}!Initialize@{Initialize}}
+\index{Initialize@{Initialize}!CCircuit@{CCircuit}}
+\doxysubsubsection{\texorpdfstring{Initialize()}{Initialize()}}
+{\footnotesize\ttfamily void CCircuit\+::\+Initialize (\begin{DoxyParamCaption}\item[{int $\ast$}]{circuit\+\_\+vector }\end{DoxyParamCaption})}
+
+Initialize the circuit to calculate the fitness value
+
+Give an initial guess for the feed rate of both components to every cell in the circuit(beyond the last two units) \mbox{\Hypertarget{class_c_circuit_ae1a34b937d94bb545fb3472844eac6ae}\label{class_c_circuit_ae1a34b937d94bb545fb3472844eac6ae}} 
+\index{CCircuit@{CCircuit}!mark\_false@{mark\_false}}
+\index{mark\_false@{mark\_false}!CCircuit@{CCircuit}}
+\doxysubsubsection{\texorpdfstring{mark\_false()}{mark\_false()}}
+{\footnotesize\ttfamily void CCircuit\+::mark\+\_\+false (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Reset all marks to false before each validity test \mbox{\Hypertarget{class_c_circuit_ab0c83bfd3439b92bf9a3c23789aa02e3}\label{class_c_circuit_ab0c83bfd3439b92bf9a3c23789aa02e3}} 
+\index{CCircuit@{CCircuit}!mark\_units@{mark\_units}}
+\index{mark\_units@{mark\_units}!CCircuit@{CCircuit}}
+\doxysubsubsection{\texorpdfstring{mark\_units()}{mark\_units()}}
+{\footnotesize\ttfamily void CCircuit\+::mark\+\_\+units (\begin{DoxyParamCaption}\item[{int}]{unit\+\_\+num }\end{DoxyParamCaption})}
+
+Mark the units using recursion \mbox{\Hypertarget{class_c_circuit_a0771d7ff31756d94578ae82ce195120e}\label{class_c_circuit_a0771d7ff31756d94578ae82ce195120e}} 
+\index{CCircuit@{CCircuit}!print\_para@{print\_para}}
+\index{print\_para@{print\_para}!CCircuit@{CCircuit}}
+\doxysubsubsection{\texorpdfstring{print\_para()}{print\_para()}}
+{\footnotesize\ttfamily void CCircuit\+::print\+\_\+para (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Print and check the value of parameters \mbox{\Hypertarget{class_c_circuit_a63ade56ad993e3d4c256fe3a02e80dd5}\label{class_c_circuit_a63ade56ad993e3d4c256fe3a02e80dd5}} 
+\index{CCircuit@{CCircuit}!test\_cal@{test\_cal}}
+\index{test\_cal@{test\_cal}!CCircuit@{CCircuit}}
+\doxysubsubsection{\texorpdfstring{test\_cal()}{test\_cal()}}
+{\footnotesize\ttfamily void CCircuit\+::test\+\_\+cal (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Test for calculating the stream 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+CCircuit.\+h\item 
+CCircuit.\+cpp\end{DoxyCompactItemize}

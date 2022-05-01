@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3b539eba-32ab-4e35-aaba-d5912b6536c9" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problem Statement for Genetic Algorithms Project.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/CCircuit.h" beforeDir="false" afterPath="$PROJECT_DIR$/includes/CCircuit.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/CUnit.h" beforeDir="false" afterPath="$PROJECT_DIR$/includes/CUnit.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/Genetic_Algorithm.h" beforeDir="false" afterPath="$PROJECT_DIR$/includes/Genetic_Algorithm.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CCircuit.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/CCircuit.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Genetic_Algorithm.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Genetic_Algorithm.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test1.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test2.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test2.cpp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2021" />
+    <option name="minorVersion" value="3.4" />
+  </component>
+  <component name="ProjectId" id="26hRERdGhk7Ej8jcnyIOgJMppAy" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="cmake.loaded.for.project" value="true" />
+    <property name="ctest.advertisement.all.test.configuration.is.created" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All CTest" type="CTestRunConfiguration" factoryName="CTestRun" PROGRAM_PARAMS="--extra-verbose" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" WORKING_DIR="file://$CMakeCurrentLocalGenerationDir$" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_PATH="$CTestCurrentExecutableName$" EXPLICIT_BUILD_TARGET_NAME="all" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3b539eba-32ab-4e35-aaba-d5912b6536c9" name="Changes" comment="" />
+      <created>1647873719627</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1647873719627</updated>
+      <workItem from="1647873720907" duration="96000" />
+      <workItem from="1647873823554" duration="17735000" />
+      <workItem from="1647944347046" duration="18289000" />
+      <workItem from="1648024337922" duration="565000" />
+      <workItem from="1648030891157" duration="4020000" />
+      <workItem from="1648035461135" duration="23487000" />
+      <workItem from="1648063586617" duration="37000" />
+      <workItem from="1648063949766" duration="49072000" />
+      <workItem from="1648172259376" duration="12013000" />
+      <workItem from="1648213091248" duration="799000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

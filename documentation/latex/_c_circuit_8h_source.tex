@@ -1,0 +1,55 @@
+\hypertarget{_c_circuit_8h_source}{}\doxysection{CCircuit.\+h}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#pragma once}}
+\DoxyCodeLine{2 }
+\DoxyCodeLine{3 \textcolor{preprocessor}{\#include "{}../includes/CUnit.h"{}}}
+\DoxyCodeLine{4 \textcolor{preprocessor}{\#include <vector>}}
+\DoxyCodeLine{5 }
+\DoxyCodeLine{6 \textcolor{keyword}{using namespace }std;}
+\DoxyCodeLine{7 }
+\DoxyCodeLine{8 \textcolor{comment}{// the number of units in the circuit could be modified here}}
+\DoxyCodeLine{9 \textcolor{keyword}{const} \textcolor{keywordtype}{int} num\_units = 10;}
+\DoxyCodeLine{10 }
+\DoxyCodeLine{11 \textcolor{keyword}{class }\mbox{\hyperlink{class_c_circuit}{CCircuit}} \{}
+\DoxyCodeLine{12 \textcolor{keyword}{public}:}
+\DoxyCodeLine{13     \textcolor{keywordtype}{int} num\_units = 10;   \textcolor{comment}{// the number of units in the circuit}}
+\DoxyCodeLine{14     \textcolor{keywordtype}{double} pay = 100; \textcolor{comment}{//  the pay for gormanium per kg}}
+\DoxyCodeLine{15     \textcolor{keywordtype}{double} penalty = 500; \textcolor{comment}{// the penalty for waste peer kg}}
+\DoxyCodeLine{16     \textcolor{keywordtype}{double} gormanium\_in = 10;   \textcolor{comment}{// the feed of gormanium, kg/s}}
+\DoxyCodeLine{17     \textcolor{keywordtype}{double} waste\_in = 100;  \textcolor{comment}{// the feed of waste, kg/s}}
+\DoxyCodeLine{18     \mbox{\hyperlink{class_c_unit}{CUnit}} *units = \textcolor{keyword}{nullptr}; \textcolor{comment}{// the array for units in circuit}}
+\DoxyCodeLine{19 }
+\DoxyCodeLine{20     \textcolor{keywordtype}{int} outlet\_conc = -\/1;    \textcolor{comment}{// the index of the last unit of the conc}}
+\DoxyCodeLine{21     \textcolor{keywordtype}{int} outlet\_tail = -\/1;    \textcolor{comment}{// the index of the last unit of the tail}}
+\DoxyCodeLine{22 }
+\DoxyCodeLine{23     \textcolor{keywordtype}{double} purity;}
+\DoxyCodeLine{24     \textcolor{keywordtype}{double} recovery;}
+\DoxyCodeLine{25 }
+\DoxyCodeLine{27     \mbox{\hyperlink{class_c_circuit_a781f033b1d813923dc8723140403f1f7}{CCircuit}}();}
+\DoxyCodeLine{28 }
+\DoxyCodeLine{29     \mbox{\hyperlink{class_c_circuit_a781f033b1d813923dc8723140403f1f7}{CCircuit}}(\textcolor{keywordtype}{int} num\_units);}
+\DoxyCodeLine{30 }
+\DoxyCodeLine{31     \mbox{\hyperlink{class_c_circuit_a781f033b1d813923dc8723140403f1f7}{CCircuit}}(\textcolor{keywordtype}{int} num\_units, \textcolor{keywordtype}{double} g\_in, \textcolor{keywordtype}{double} w\_in, \textcolor{keywordtype}{double} pay, \textcolor{keywordtype}{double} penalty);}
+\DoxyCodeLine{32 }
+\DoxyCodeLine{34     \mbox{\hyperlink{class_c_circuit_ab3b4f708f29772030e4b1a5fb3c3b952}{\string~CCircuit}}();}
+\DoxyCodeLine{35 }
+\DoxyCodeLine{37     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_c_circuit_a0771d7ff31756d94578ae82ce195120e}{print\_para}}();}
+\DoxyCodeLine{38 }
+\DoxyCodeLine{40     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_c_circuit_a63ade56ad993e3d4c256fe3a02e80dd5}{test\_cal}}();}
+\DoxyCodeLine{41 }
+\DoxyCodeLine{43     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_c_circuit_ab0c83bfd3439b92bf9a3c23789aa02e3}{mark\_units}}(\textcolor{keywordtype}{int} unit\_num);}
+\DoxyCodeLine{44 }
+\DoxyCodeLine{46     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_c_circuit_ae1a34b937d94bb545fb3472844eac6ae}{mark\_false}}();}
+\DoxyCodeLine{47 }
+\DoxyCodeLine{49     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_c_circuit_a4b3419c13fdfe84ed8241f8119f70710}{Initialize}}(\textcolor{keywordtype}{int} *circuit\_vector);}
+\DoxyCodeLine{50 }
+\DoxyCodeLine{52     \textcolor{keywordtype}{double} \mbox{\hyperlink{class_c_circuit_aac5d2ea2f49e3d1e96111e39c1bff3d1}{Evaluate\_Circuit}}(\textcolor{keywordtype}{int} *circuit\_vector, \textcolor{keywordtype}{double} tolerance, \textcolor{keywordtype}{int} max\_iterations);}
+\DoxyCodeLine{53 }
+\DoxyCodeLine{55     \textcolor{keywordtype}{double} \mbox{\hyperlink{class_c_circuit_ad685b2fd7020df3342512b5a725da058}{calculate\_difference}}(\textcolor{keywordtype}{int} i);}
+\DoxyCodeLine{56 }
+\DoxyCodeLine{58     \textcolor{keywordtype}{bool} \mbox{\hyperlink{class_c_circuit_aedee952c53aada9f2e48df5bb541526a}{Check\_Validity}}(\textcolor{keywordtype}{int} *circuit\_vector);}
+\DoxyCodeLine{59 \};}
+\DoxyCodeLine{60 }
+
+\end{DoxyCode}
